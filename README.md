@@ -1,5 +1,5 @@
 # Launching
-After downloading the folder, open a terminal in the bin folder, and simply run './KatanaLauncherUI.py'
+After downloading and extracting the folder, open a terminal in the bin folder, and simply run './KatanaLauncherUI.py'
 # Custom Render Scripts
 This Launcher features custom renderer scripts to adjust based on installed katana versions, renderers, and respective versions. 
 If you have another renderer in the /Renderers folder. It will be used, but lacking the version functionality.
