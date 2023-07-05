@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="KatanaIcon">
+    <file>test.png</file>
+  </qresource>
+</RCC>
