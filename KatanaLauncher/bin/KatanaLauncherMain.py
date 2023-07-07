@@ -21,7 +21,7 @@ else:
 def getKatanaVersions():
     katana_versions = []
     for f in os.listdir(paths['katana_path']):
-        if 'Katana' in f:
+        if os.path.isfile(paths['katana_path'] + "/" + f + "/katana"):
             katana_versions.append(f[6:])
     return katana_versions
 
@@ -35,7 +35,7 @@ def getArnoldVersions():
 def getPrmanVersions():
     prman_versions = []
     for f in os.listdir(paths['prman_path']):
-        if 'Katana' in f:
+        if 'RenderManForKatana' in f:
             prman_versions.append(f.split('-')[1])
     return prman_versions
 
