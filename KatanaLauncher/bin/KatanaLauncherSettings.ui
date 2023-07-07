@@ -6,215 +6,211 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>465</width>
-    <height>350</height>
+    <width>628</width>
+    <height>323</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Settings</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="Katana_Bin_LE">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>411</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Scripts_LE">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>90</y>
-      <width>411</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Arnold_LE">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>150</y>
-      <width>411</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="prman_LE">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>210</y>
-      <width>411</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Katana_Bin_BTN">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>30</y>
-      <width>23</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Scripts_BTN">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>90</y>
-      <width>23</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Arnold_BTN">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>150</y>
-      <width>23</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="prman_BTN">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>210</y>
-      <width>23</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Save_BTN">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>260</y>
-      <width>80</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Ok</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Katana_LBL">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>10</y>
-      <width>120</width>
-      <height>15</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Katana Installations Folder</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="prman_LBL">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>190</y>
-      <width>120</width>
-      <height>15</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Renderman Folder</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Arnold_LBL">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>130</y>
-      <width>120</width>
-      <height>15</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Arnold Folder</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="Scripts_LBL">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>120</width>
-      <height>15</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Scripts Folder</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="reset_default_BTN">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>260</y>
-      <width>110</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Reset to Default</string>
-    </property>
-   </widget>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout_5" rowminimumheight="0,0,0,0,30">
+      <property name="leftMargin">
+       <number>15</number>
+      </property>
+      <property name="topMargin">
+       <number>15</number>
+      </property>
+      <property name="rightMargin">
+       <number>15</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="3" column="0">
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="2" column="0">
+         <widget class="QLineEdit" name="prman_LE">
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="prman_LBL">
+          <property name="text">
+           <string>Renderman Folder</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="prman_BTN">
+          <property name="maximumSize">
+           <size>
+            <width>23</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="Katana_Bin_LE">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="Katana_Bin_BTN">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>23</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="Katana_LBL">
+          <property name="text">
+           <string>Katana Installations Folder</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="1">
+         <widget class="QPushButton" name="Redshift_BTN">
+          <property name="maximumSize">
+           <size>
+            <width>23</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="Redshift_LE">
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="Redshift_LBL">
+          <property name="text">
+           <string>Redshift Folder</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QLabel" name="Arnold_LBL">
+          <property name="text">
+           <string>Arnold Folder</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="Arnold_LE">
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="Arnold_BTN">
+          <property name="maximumSize">
+           <size>
+            <width>23</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="reset_default_BTN">
+          <property name="text">
+           <string>Reset to Default</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Save_BTN">
+          <property name="text">
+           <string>Ok</string>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>465</width>
+     <width>628</width>
      <height>20</height>
     </rect>
    </property>
